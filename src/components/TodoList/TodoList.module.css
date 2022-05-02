@@ -1,0 +1,18 @@
+.container {
+  margin: 25px auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.container .item_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=TodoList.module.css.map */

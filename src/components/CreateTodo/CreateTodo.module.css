@@ -1,0 +1,48 @@
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+form .my_input {
+  width: 65%;
+  padding: 10px 15px;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid #81898d;
+  outline: none;
+  color: #81898d;
+  transition: 0.25s ease-out;
+}
+form .my_input:hover {
+  border-color: #a2c5ce;
+}
+form .my_input:focus, form .my_input:not(:placeholder-shown) {
+  border-color: #9ee3f8;
+  color: #20212d;
+}
+form .my_input__hover {
+  border-color: #a2c5ce;
+}
+form .my_btn {
+  width: 10%;
+  border: 1px solid #81898d;
+  border-left: 0;
+  border-radius: 0 10px 10px 0;
+  background: #81898d;
+  color: white;
+  font-weight: bold;
+  transition: 0.25s ease-out;
+}
+form .my_btn:hover {
+  cursor: pointer;
+}
+form .my_btn__hover {
+  border-color: #a2c5ce;
+  background: #a2c5ce;
+}
+form .my_btn__focus {
+  border-color: #9ee3f8;
+  background: #9ee3f8;
+}
+
+/*# sourceMappingURL=CreateTodo.module.css.map */
